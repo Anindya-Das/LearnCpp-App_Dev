@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Learn C++</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="home_text"> C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.</string>
+    <string name="home_text_pt2">C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features. </string>
+    <string name="home_text_pt3">C++ was developed by Bjarne Stroustrup starting in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language and originally named C with Classes but later it was renamed C++ in 1983. </string>
+    <string name="home_text_pt4">C++ is a superset of C, and that virtually any legal C program is a legal C++ program. </string>
+
+    <array name="list">
+        <item>1.C++ is used by hundreds of thousands of programmers in essentially every application
+            domain.
+        </item>
+        <item>2.C++ is being highly used to write device drivers and other software that rely on
+            direct manipulation of hardware under realtime constraints.
+        </item>
+        <item>3.C++ is widely used for teaching and research because it is clean enough for
+            successful teaching of basic concepts.
+        </item>
+        <item>4.Anyone who has used either an Apple Macintosh or a PC running Windows has indirectly
+            used C++ because the primary user interfaces of these systems are written in C++.
+        </item>
+    </array>
+
+    <string name="for_bs_syn_txt_pt1">Header files contain definitions of Functions and Variables, which is imported or used into any C++ program by using the pre-processor #include statement. For example the header file iostream is used in the following example, which is a header file. It is used to basic input and output. It stands for Input-Output Stream.</string>
+    <string name="pt2">A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries.</string>
+
+    <string name="pt3"> The line int main() is the main function where program execution begins.</string>
+    <string name="pt4">To print a line in console window we use "cout", thus the line cout with "'Welcome to Learn C++'"  causes the message "'Welcome to Learn C++'" to be displayed on the screen. Similarly "'cin'" is used to give input to the program from the console window.</string>
+
+    <string name="hello_world">Let"'s begin our coding journey by printing a simple sentence in the console window. Write the following code and execute it to print Hello World. The keyword "'endl'" is used to print sentence from a new line.  </string>
+    <string name="comm_txt">Comments are portions of the code ignored by the compiler which allow the user to make simple notes in the relevant areas of the source code. Comments come either in block form or as single lines. Single-line comments (informally, C++ style), start with // and continue until the end of the line. </string>
+
+    <string name="loop_while">A while loop statement repeatedly executes a target statement as long as a given condition is true.Here, statement(s) may be a single statement or a block of statements. The condition may be any expression, and true is any non-zero value. The loop iterates while the condition is true.
+
+When the condition becomes false, program control passes to the line immediately following the loop. </string>
+
+    <string name="loop_for">In for loop, a loop variable is used to control the loop. First initialize this loop variable to some value, then check whether this variable is less than or greater than counter value. If statement is true, then loop body is executed and loop variable gets updated . Steps are repeated till exit condition comes.</string>
+
+    <string name="cond_if">An if statement can be followed by an optional else statement, which executes when the boolean expression is false. If the boolean expression evaluates to true, then the if block of code will be executed, otherwise else block of code will be executed.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

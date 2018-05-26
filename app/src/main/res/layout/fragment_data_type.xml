@@ -1,0 +1,69 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text="Data Types"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/data_pic1"
+            android:scaleType="fitXY"
+            android:id="@+id/data_code"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/data_pic2"
+            android:scaleType="fitXY"
+            android:id="@+id/data_op"
+            android:layout_margin="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:id="@+id/prev_pg"
+            android:src="@drawable/prev_pg"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:id="@+id/next_pg"
+            android:src="@drawable/next_pg"
+            android:scaleType="fitXY"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

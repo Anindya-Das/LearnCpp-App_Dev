@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hw_heading"
+            android:layout_margin="10dp"
+            android:text="Hello World"
+            android:textColor="@color/red"
+            android:textAlignment="center"
+            android:textSize="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Printing 'Hello World'"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hello_world"
+            android:textColor="@color/black"
+            android:background="@color/green"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/hw_pic1"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/hw_pic2"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:id="@+id/hwpg_goto_prev"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/prev_pg"
+                android:scaleType="fitXY"/>
+
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:id="@+id/hwpg_goto_next"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/next_pg"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
